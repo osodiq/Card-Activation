@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D6253542-38B4-4AC6-9F04-6992527C5E3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9DBF437B-4EE6-4412-AEB9-08D41F5B1B70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{6132441A-9C02-40AE-A4BC-ABDF4D814CC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{B34D51B7-0C2F-4659-8620-F8630807DB93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlatCard.Domain", "Domain\AlatCard.Domain\AlatCard.Domain.csproj", "{225F5E2B-0AB9-48AD-B62C-4E2789648ABD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlatCard.Repository", "Repository\AlatCard.Repository\AlatCard.Repository.csproj", "{5B94A8BD-34DA-4DC4-9489-57A0FC15E43F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlatCard.Api", "AlatCard.Api\AlatCard.Api.csproj", "{7703236C-3CAE-4E60-AF0B-5B956CA21830}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlatCard.SharedKernel", "SharedKernel\AlatCard.SharedKernel\AlatCard.SharedKernel.csproj", "{F534C789-BE1D-4C74-A14B-F7CE81F853BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardDomainService", "Domain\CardDomainService\CardDomainService.csproj", "{3CE77E2E-41F1-47B0-93E2-AC8739D28911}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureSeriveBusUtil", "SharedKernel\AzureSeriveBusUtil\AzureSeriveBusUtil.csproj", "{CE188DA0-50B9-4C39-9F0A-56C218AB6AC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlatCard.Infrastructure", "Infrastructure\AlatCard.Infrastructure\AlatCard.Infrastructure.csproj", "{58966980-6A1B-424F-AD78-4DB9918E5A03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD5A4813-B413-4562-A4CE-749ABEE97BFA}"
+	ProjectSection(SolutionItems) = preProject
+		alatcard.deploymentSandBox.yaml = alatcard.deploymentSandBox.yaml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlatCardUnitTest", "AlatCardUnitTest\AlatCardUnitTest.csproj", "{967AA4D4-E58A-475B-B6B0-4FB928415AA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{225F5E2B-0AB9-48AD-B62C-4E2789648ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225F5E2B-0AB9-48AD-B62C-4E2789648ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225F5E2B-0AB9-48AD-B62C-4E2789648ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225F5E2B-0AB9-48AD-B62C-4E2789648ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B94A8BD-34DA-4DC4-9489-57A0FC15E43F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B94A8BD-34DA-4DC4-9489-57A0FC15E43F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B94A8BD-34DA-4DC4-9489-57A0FC15E43F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B94A8BD-34DA-4DC4-9489-57A0FC15E43F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7703236C-3CAE-4E60-AF0B-5B956CA21830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7703236C-3CAE-4E60-AF0B-5B956CA21830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7703236C-3CAE-4E60-AF0B-5B956CA21830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7703236C-3CAE-4E60-AF0B-5B956CA21830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F534C789-BE1D-4C74-A14B-F7CE81F853BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F534C789-BE1D-4C74-A14B-F7CE81F853BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F534C789-BE1D-4C74-A14B-F7CE81F853BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F534C789-BE1D-4C74-A14B-F7CE81F853BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CE77E2E-41F1-47B0-93E2-AC8739D28911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE77E2E-41F1-47B0-93E2-AC8739D28911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE77E2E-41F1-47B0-93E2-AC8739D28911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE77E2E-41F1-47B0-93E2-AC8739D28911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE188DA0-50B9-4C39-9F0A-56C218AB6AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE188DA0-50B9-4C39-9F0A-56C218AB6AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE188DA0-50B9-4C39-9F0A-56C218AB6AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE188DA0-50B9-4C39-9F0A-56C218AB6AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58966980-6A1B-424F-AD78-4DB9918E5A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58966980-6A1B-424F-AD78-4DB9918E5A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58966980-6A1B-424F-AD78-4DB9918E5A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58966980-6A1B-424F-AD78-4DB9918E5A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{967AA4D4-E58A-475B-B6B0-4FB928415AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{967AA4D4-E58A-475B-B6B0-4FB928415AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{967AA4D4-E58A-475B-B6B0-4FB928415AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{967AA4D4-E58A-475B-B6B0-4FB928415AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B34D51B7-0C2F-4659-8620-F8630807DB93} = {DD5A4813-B413-4562-A4CE-749ABEE97BFA}
+		{225F5E2B-0AB9-48AD-B62C-4E2789648ABD} = {D6253542-38B4-4AC6-9F04-6992527C5E3A}
+		{5B94A8BD-34DA-4DC4-9489-57A0FC15E43F} = {6132441A-9C02-40AE-A4BC-ABDF4D814CC9}
+		{F534C789-BE1D-4C74-A14B-F7CE81F853BB} = {B34D51B7-0C2F-4659-8620-F8630807DB93}
+		{3CE77E2E-41F1-47B0-93E2-AC8739D28911} = {D6253542-38B4-4AC6-9F04-6992527C5E3A}
+		{CE188DA0-50B9-4C39-9F0A-56C218AB6AC7} = {B34D51B7-0C2F-4659-8620-F8630807DB93}
+		{58966980-6A1B-424F-AD78-4DB9918E5A03} = {9DBF437B-4EE6-4412-AEB9-08D41F5B1B70}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2936ECF-E6FC-4F70-AF95-C1FE9533ACE0}
+	EndGlobalSection
+EndGlobal
